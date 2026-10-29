@@ -6,7 +6,7 @@ I'm Con, a data scientist based in London. I started out in physics, and these d
 
 ## What you'll find here
 
-- Write-ups of personal data science and ML engineering projects: what I built, what went wrong, and what I'd change.
+- Write-ups of my personal data science and machine learning projects: what I built, what went wrong, and what I'd change.
 - The odd post on a mathematics or programming problem I found interesting.
 
 ## Elsewhere
