@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - fonts/*.woff2
+
+execute:
+  freeze: auto
+
+website:
+  title: "Con Hughes"
+  site-url: https://conhues.github.io
+  draft-mode: gone
+  navbar:
+    right:
+      - text: Posts
+        href: index.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/conhues
+      - icon: linkedin
+        href: https://linkedin.com/in/cnrhughes
+
+format:
+  html:
+    theme: [default, custom.scss]
+    css: styles.css
+    toc: false
+    code-copy: true
+    code-overflow: wrap
+    fig-format: svg
+    grid:
+      sidebar-width: 0px
+      body-width: 680px
+      margin-width: 0px
+    html-math-method:
+      method: mathjax
+      url: https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+    include-in-header:
+      text: |
+        <script>
+          window.MathJax = { output: { font: 'mathjax-fira' } };
+        </script>

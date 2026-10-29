@@ -1,0 +1,100 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "CommitMono", ui-monospace, Menlo, Consolas, monospace;
+$font-family-monospace: "CommitMono", ui-monospace, Menlo, Consolas, monospace;
+$body-bg: #ffffff;
+$body-color: #000000;
+$link-color: #ff2700;
+$link-decoration: none;
+$headings-font-weight: 700;
+$font-size-root: 16px;
+$line-height-base: 1.65;
+$code-color: #000000;
+$navbar-bg: #ffffff;
+$navbar-fg: #000000;
+$navbar-hl: #ff2700;
+
+/*-- scss:rules --*/
+h1,
+h2,
+h3 {
+    letter-spacing: -0.02em;
+}
+
+h1.title {
+    border-bottom: 4px solid #ff2700;
+    padding-bottom: 0.4rem;
+}
+
+main p,
+main li {
+    text-align: justify;
+    hyphens: auto;
+    hyphenate-limit-chars: 10 4 5;
+}
+
+.quarto-listing p,
+.quarto-listing li {
+    text-align: left;
+    hyphens: none;
+}
+
+main .links p {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+main .links a {
+    margin: 0 0.8rem;
+}
+
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+main a {
+    border-bottom: 2px solid #ff2700;
+}
+
+main a:hover {
+    background: #ff2700;
+    color: #ffffff;
+}
+
+.quarto-listing a:hover {
+    background: transparent;
+    color: inherit;
+}
+
+pre {
+    background: #f4f4f4;
+    border-radius: 0;
+}
+
+div.sourceCode {
+    background: #f4f4f4;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+
+div.sourceCode pre,
+pre.sourceCode {
+    background: transparent;
+    border: none;
+}
+
+.cell-output pre {
+    background: #f4f4f4;
+    border: 1px solid #000000;
+    border-left: 4px solid #ff2700;
+    border-radius: 0;
+}
+
+.quarto-title-meta {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}

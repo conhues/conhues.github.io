@@ -1,0 +1,12 @@
+---
+title: "Posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+  feed: true
+page-layout: full
+---
+
+Nothing here yet. The first write-up is on its way.

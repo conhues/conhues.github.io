@@ -1,0 +1,16 @@
+---
+title: "About"
+---
+
+I'm Con, a data scientist based in London. I started out in physics, and these days I build optimisation, language and forecasting models for a living. This site is where I write up what I build in my own time.
+
+## What you'll find here
+
+- Write-ups of personal data science and ML engineering projects: what I built, what went wrong, and what I'd change.
+- The odd post on a mathematics or programming problem I found interesting.
+
+## Elsewhere
+
+::: {.links}
+[GitHub](https://github.com/conhues) [LinkedIn](https://linkedin.com/in/cnrhughes) [Email](mailto:hughes.cnr@gmail.com)
+:::
